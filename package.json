@@ -19,7 +19,7 @@
     "pdf"
   ],
   "author": "Yui Matsumura <yuiseki@gmail.com> (https://twitter.com/yuiseki_)",
-  "license": "ISC",
+  "license": "WTFPL",
   "devDependencies": {
     "@types/node": "^17.0.8",
     "@types/pdfjs-dist": "^2.10.378",

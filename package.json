@@ -1,0 +1,34 @@
+{
+  "name": "pdfjs2png",
+  "version": "0.0.1",
+  "description": "Simple CLI tool convert PDF file into png image with pdf.js and node-canvas",
+  "main": "dist/index.js",
+  "bin": {
+    "pdfjs2png": "./bin/pdfjs2png.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean; tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Yui Matsumura <yuiseki@gmail.com> (https://twitter.com/yuiseki_)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/pdfjs-dist": "^2.10.378",
+    "@types/yargs": "^17.0.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "pdfjs-dist": "^2.12.313",
+    "yargs": "^17.3.1"
+  }
+}

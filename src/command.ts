@@ -25,9 +25,9 @@ const main = async () => {
   } else {
     for await (const filepath of argv._) {
       if (typeof filepath === "string") {
-        const fileName = path.basename(filepath);
+        const filename = path.basename(filepath);
         const fileBuffer = await fs.readFile(filepath);
-        const results = await pdfjs2png(fileBuffer, fileName);
+        const results = await pdfjs2png(fileBuffer, filename);
         for await (const result of results) {
           console.log(result);
         }

@@ -1,4 +1,4 @@
-# pdfjs2png - Simple CLI tool convert PDF file into png images with pdf.js and node-canvas
+# pdfjs2png - Simple CLI tool and npm package convert PDF file into png images with pdf.js and node-canvas
 
 ## Install
 

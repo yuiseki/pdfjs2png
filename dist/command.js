@@ -26,7 +26,7 @@ const _1 = require(".");
 const argv = (0, yargs_1.default)(process.argv.slice(2))
     .option("stdin", {
     alias: "i",
-    description: "Read image data from stdin",
+    description: "Read PDF file data from stdin",
     type: "boolean",
 })
     .help()

@@ -44,9 +44,13 @@ cat test/helloworld.pdf | pdfjs2png -i
 ## Basic Usage as package
 
 ```typescript
+import path from "path";
+import { promises as fs } from "fs";
 import { pdfjs2png } from "pdfjs2png";
 
-const results = await pdfjs2png(url);
+const fileName = path.basename(filepath);
+const fileBuffer = await fs.readFile(filepath);
+const results = await pdfjs2png(fileBuffer, fileName);
 // results is an array of string of tmp file path of PDF pages.
 console.log(results);
 ```

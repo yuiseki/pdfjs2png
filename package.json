@@ -21,7 +21,7 @@
   "author": "Yui Matsumura <yuiseki@gmail.com> (https://twitter.com/yuiseki_)",
   "license": "WTFPL",
   "devDependencies": {
-    "@types/node": "^20.0.0",
+    "@types/node": "^22.0.0",
     "@types/pdfjs-dist": "^2.10.378",
     "@types/yargs": "^17.0.8",
     "typescript": "^5.0.0"

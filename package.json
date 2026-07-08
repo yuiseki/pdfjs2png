@@ -24,7 +24,7 @@
     "@types/node": "^22.0.0",
     "@types/pdfjs-dist": "^2.10.378",
     "@types/yargs": "^17.0.8",
-    "typescript": "^5.0.0"
+    "typescript": "^7.0.0"
   },
   "dependencies": {
     "canvas": "^3.0.0",

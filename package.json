@@ -29,6 +29,6 @@
   "dependencies": {
     "canvas": "^3.0.0",
     "pdfjs-dist": "^5.0.0",
-    "yargs": "^17.3.1"
+    "yargs": "^18.0.0"
   }
 }
